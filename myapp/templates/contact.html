@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/urembo.css' %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<a href='{% url 'home' %}'>Home</a>
+<a href='{% url 'about' %}'>About</a>
+<a href='{% url 'services' %}'>Services</a>
+<a href='{% url 'contact' %}'>contact</a>
+
+<p>Here is our contact</p>
+<img src="{% static 'images/nat.jpg' %}" alt="">
+
+</body>
+</html>
